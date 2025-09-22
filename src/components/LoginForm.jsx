@@ -47,7 +47,7 @@ const handleSubmit = async (e) => {
   onSubmit={handleSubmit} 
   className="max-w-md mx-auto mt-20 p-8 bg-white rounded-lg shadow-lg border border-gray-200"
 >
-  <h2 className="text-2xl font-bold text-center mb-6 text-gray-800">Admin Login</h2>
+  <h2 className="text-2xl font-bold text-center mb-6 text-gray-800">Login</h2>
 
   <div className="space-y-4">
     <InputField
