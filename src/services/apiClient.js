@@ -3,8 +3,9 @@ import axios from 'axios';
 
 
 const apiClient = axios.create({
-  // baseURL: "http://localhost:5911/api/v1", 
-  baseURL:"https://machinetest-hsbk.onrender.com/api/v1",
+   
+   baseURL: process.env.REACT_APP_API_URL, 
+  headers: { 'Content-Type': 'application/json' },
   withCredentials: true,
 });
 
